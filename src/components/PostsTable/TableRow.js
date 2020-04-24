@@ -2,7 +2,7 @@ import React from "react";
 
 function TableRow({ id, title, author, post, setDataModal, toggle }) {
   return (
-    <tr className="posts-table__row">
+    <tr>
       <td>{id}</td>
       <td>
         <span
