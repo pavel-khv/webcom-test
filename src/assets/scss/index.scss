@@ -1,0 +1,36 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  padding: 2rem;
+}
+
+.posts-table {
+  border: 1px solid #dee2e6;
+  box-shadow:  0px 0px 10px #d9d9d9;
+  &__title {
+    transition: 0.2s;
+    cursor: pointer;
+    &:hover {
+      color: rgb(255, 81, 81);
+    }
+  }
+}
+
+.modal {
+  padding: 1rem;
+  &-dialog {
+    max-width: 700px;
+  }
+  &__author {
+    font-weight: 500;
+  }
+}
+
+.alert-danger {
+  text-align: center;
+}
